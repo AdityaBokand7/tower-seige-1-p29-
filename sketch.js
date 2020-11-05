@@ -24,7 +24,7 @@ function setup() {
 
  ground = new Ground(400,420,300,20)
  ground2 = new Ground(800,290,300,20)
-
+ ground3 = new Ground(500,590,width,10)
   
 box1 = new Block(330,390,30,40)
 box2 = new Block(360,390,30,40)
@@ -65,6 +65,7 @@ function draw() {
   Engine.update(engine)
   ground.display();
   ground2.display();
+  ground3.display();
 box1.display()
 box2.display()
 box3.display()
